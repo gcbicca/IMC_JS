@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+		integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+		crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/components/main-calculator.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-calculator">
+        <h1>BMI Calculator</h1>
+        <div class="form__container">
+            <label class="main-label" for="ihight">Hight (cm)</label>
+            <input type="number" name="hight" id="ihight" required>
+        </div>
+        <div class="form__container">
+            <label class="main-label" for="iweight">Weight (kg)</label>
+            <input type="number" name="weight" id="iweight" required>
+        </div>
+        <input class="main-button" type="button" value="Calculate" onclick="showResult()">
+        <textarea name="" id="iresult" cols="30" rows="10">Complete all filds and click at calculate.</textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
